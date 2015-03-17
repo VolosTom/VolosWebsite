@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <title>Services</title>
 
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <script type="text/javascript" src="/js/angular.min.js"></script>
     <script src="/js/ui-bootstrap-tpls-0.11.2.js"></script>
     <script type="text/javascript" src="../js/app.js"></script>
@@ -15,22 +16,6 @@
     <link href="../carousel/carousel.css" rel="stylesheet">
 
 
-<script>
-    function displayBW(x)
-		{
-			x.style.display="none";
-            document.getElementById("bwPic").style.display="inline";
-			document.getElementById("bwPic").style.visibility="visible";
-
-		}
-
-		function closeBW()
-		{
-			document.getElementById("bannerPic").style.display="initial";
-			document.getElementById("bwPic").style.visibility="hidden";
-            document.getElementById("bwPic").style.display="none";
-		}
-</script>
 
 
 </head>
@@ -54,11 +39,12 @@
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li><a href="../home.html">Home</a></li>
-                <li><a href="ourFirm.html">Our Firm</a></li>
+                <li><a href="ourFirm.html">Firm</a></li>
                 <li class="active"><a href="services.html">Services</a></li>
-                  <li><a href="ourTeam.html">Our Team</a></li>
-                  <li><a href="contactUs.html">Contact Us</a></li>
+                  <li><a href="ourTeam.html">Team</a></li>
+                  <li><a href="contactUs.html">Contact</a></li>
               </ul>
+              <p class="navbar-text navbar-right" style="font-family: eb-garamond; color: black; font-weight: 500;">Volos Portfolio Solutions LLC.</p>
             </div>
           </div>
         </nav>
@@ -71,31 +57,54 @@
     <div class="row">
         <div class="col-lg-12">
             <center>
-                <img id="bannerPic" src="../img/pageImages/servicesPic.jpg" onmouseover="displayBW(this)" class="img-responsive" />
-                <img id="bwPic" src="../img/pageImages/servicesBW.jpg" style="visibility: hidden; display: none;" class="img-responsive" />
+                <img id="bannerPic" src="../img/pageImages/services.jpg" class="img-responsive" />
             </center>
         </div>
     </div>
 
-    <div class="row" onmouseover="closeBW()">
+    <div class="row">
+
         <div class="col-lg-12">
 
             <div class="jumbotron">
-        <h1 class="bodyText">Services</h1>
-           <br>
-           <h2 class="bodyText">The Volos platform provides investment managers, traders, structures, and analysts with unparalleled trade insight.</h2>
-            <blockquote>
-                <p class="bodyText">Structuring and Valuation for all Exotic Option Structures</p>
-            </blockquote>
-            <blockquote>
-                <p class="bodyText">Custom Trade Optimization Services</p>
-            </blockquote>
-            <blockquote>
-                <p class="bodyText">Advanced Pre-Trade Analysis and Visualization</p>
-            </blockquote>
-      </div>
+
+                <div class="container">
+
+                    <div class="row">
+
+                        <div class="col-lg-8">
+
+                            <h3 class="bodyText">The Volos platform provides investment managers, traders, structurers, and analysts with unparalleled trade insight.</h3>
+                                <blockquote>
+                                    <p class="bodyText">&#187; Valuation for all Exotic Options</p>
+                                </blockquote>
+                                <blockquote>
+                                    <p class="bodyText">&#187; Trade Optimization Services</p>
+                                </blockquote>
+                                <blockquote>
+                                    <p class="bodyText">&#187; Advanced Pre-Trade Analysis and Visualization</p>
+                                </blockquote>
+
+                        </div>
+
+                        <div class="col-lg-4">
+
+                            <center>
+
+                                <img class="img-rounded img-responsive" src="../img/pageImages/servicesPenPaper.png" style="height: 400px">
+
+                            </center>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
 
         </div>
+
     </div>
     <center><p><a href="#">Back to top</a></p></center>
 
