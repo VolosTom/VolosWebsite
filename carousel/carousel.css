@@ -81,7 +81,7 @@ footer{
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
-  color: #000000;
+  /*color: #000000;*/
   display: none;
 
 
@@ -103,6 +103,29 @@ footer{
   max-width: none;
   width: auto;
   height: 500px;*/
+
+}
+
+.carousel-control {
+
+  /*background-color: transparent;*/
+  text-shadow: none;
+  opacity: 0;
+
+}
+
+.carousel-control.left {
+  background-image: none;
+}
+.carousel-control.right {
+  right: 0;
+  left: auto;
+  background-image: none;
+}
+
+.glyphicon{
+
+  color: black;
 
 }
 
