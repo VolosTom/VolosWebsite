@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Contact Us</title>
+<title>Contact</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="icon" href="../img/favicon.png" type="image/png">
 
 <script type="text/javascript" src="/js/angular.min.js"></script>
     <script src="/js/ui-bootstrap-tpls-0.11.2.js"></script>
@@ -15,22 +18,6 @@
     <link href="../carousel/carousel.css" rel="stylesheet">
 
 
-<script>
-    function displayBW(x)
-		{
-			x.style.display="none";
-            document.getElementById("bwPic").style.display="inline";
-			document.getElementById("bwPic").style.visibility="visible";
-
-		}
-
-		function closeBW()
-		{
-			document.getElementById("bannerPic").style.display="initial";
-			document.getElementById("bwPic").style.visibility="hidden";
-            document.getElementById("bwPic").style.display="none";
-		}
-</script>
 
 
 </head>
@@ -53,12 +40,13 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li><a href="../home.html">Home</a></li>
-                <li><a href="ourFirm.html">Our Firm</a></li>
-                <li><a href="services.html">Services</a></li>
-                  <li><a href="ourTeam.html">Our Team</a></li>
-                  <li class="active"><a href="contactUs.html">Contact Us</a></li>
+                <li><a href="../home.html" style="font-family: eb-garamond">Home</a></li>
+                <li><a href="ourFirm.html" style="font-family: eb-garamond">Firm</a></li>
+                <li><a href="services.html" style="font-family: eb-garamond">Services</a></li>
+                  <li><a href="ourTeam.html" style="font-family: eb-garamond">Team</a></li>
+                  <li class="active"><a href="contactUs.html" style="font-family: eb-garamond">Contact</a></li>
               </ul>
+              <p class="navbar-text navbar-right" style="font-family: eb-garamond; color: black; font-weight: 500;">Volos Portfolio Solutions LLC.</p>
             </div>
           </div>
         </nav>
@@ -71,24 +59,50 @@
     <div class="row">
         <div class="col-lg-12">
             <center>
-                <img id="bannerPic" src="../img/pageImages/contactUs.jpg" onmouseover="displayBW(this)" class="img-responsive" />
-                <img id="bwPic" src="../img/pageImages/contactUsBW.jpg" style="visibility: hidden; display: none;" class="img-responsive" />
+                <img id="bannerPic" src="../img/pageImages/contact.jpg" class="img-responsive" />
             </center>
         </div>
     </div>
 
-    <div class="row" onmouseover="closeBW()">
+    <div class="row">
         <div class="col-lg-12">
 
             <div class="jumbotron">
-        <h1 class="bodyText">Contact Us</h1>
-        <br>
-        <p class="bodyText">
-            <center><h3 class="bodyText">To request more information, contact us <a href="mailto:%64%61%6e%2e%63%6f%72%63%6f%72%61%6e%40%76%6f%6c%6f%73%73%6f%66%74%77%61%72%65%2e%63%6f%6d" style="color: blue;">here</a>.</h3></center>
-            <center><h3 class="bodyText" ><br />One Boston Place, Suite 2600<br />Boston, MA, 02109<br />Office&#x3a; 857-239-8838<br /></h3></center>
+                <div class="container">
 
-        </p>
-      </div>
+                    <div class="row">
+
+                        <div class="col-lg-6">
+
+                            <center>
+
+                            <div style="width: 290px">
+
+
+                                <p class="bodyText" style="text-align: left">dan.corcoran@volossoftware.com</p>
+
+                                <p class="bodyText" style="text-align: left">One Boston Place, Suite 2600<br />201 Washington Street<br />Boston, MA, 02109<br />Office&#x3a; 857-239-8838<br /></p>
+
+
+                            </div>
+
+                            </center>
+
+                        </div>
+
+                        <div class="col-lg-6">
+
+                            <p class="bodyText">
+                                <center><iframe width="80%" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=Volos%20Portfolio%20Solutions%20LLC.%2C%20North%20Street%2C%20Boston%2C%20MA%2C%20United%20States&key=AIzaSyBnMbAZDAzNeQLSWaPiDSLVsxaRhBiAiaM"></iframe></center>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
 
         </div>
     </div>

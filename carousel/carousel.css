@@ -12,6 +12,7 @@ body {
   font-weight: 400;
 }
 
+
 /*Footer Color Text*/
 footer{
   color: gray;
@@ -26,6 +27,7 @@ footer{
 .containerTop{
   margin-top: 75px;
 }
+
 
 /*Font For Our Team Title*/
 .positionText{
@@ -59,6 +61,13 @@ footer{
   width: auto;
 }
 
+.navTitle{
+
+    font-family: eb-garamond;
+    font-weight: 500;
+
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -72,7 +81,7 @@ footer{
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
-  color: #000000;
+  /*color: #000000;*/
   display: none;
 
 
@@ -81,7 +90,7 @@ footer{
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: auto;
-  background-color: #777;
+  background-color: #ffffff;
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -94,6 +103,29 @@ footer{
   max-width: none;
   width: auto;
   height: 500px;*/
+
+}
+
+.carousel-control {
+
+  /*background-color: transparent;*/
+  text-shadow: none;
+  opacity: 0;
+
+}
+
+.carousel-control.left {
+  background-image: none;
+}
+.carousel-control.right {
+  right: 0;
+  left: auto;
+  background-image: none;
+}
+
+.glyphicon{
+
+  color: black;
 
 }
 
